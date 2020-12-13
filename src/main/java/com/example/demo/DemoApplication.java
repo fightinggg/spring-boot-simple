@@ -13,8 +13,7 @@ public class DemoApplication {
     }
 
     @GetMapping("/hello")
-    String hello(){
+    String hello() {
         return "word";
     }
-
 }
